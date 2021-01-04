@@ -33,6 +33,32 @@ matrix:
     - os: linux
       dist: xenial
       python: "pypy3.5"
+  # Power jobs:
+    - os: linux
+      arch: ppc64le
+      dist: trusty
+      python: "3.3"
+    - os: linux
+      arch: ppc64le
+      dist: trusty
+      python: "3.4"
+    # Xenial Tests
+    - os: linux
+      arch: ppc64le
+      dist: xenial
+      python: "2.7"
+    - os: linux
+      arch: ppc64le
+      dist: xenial
+      python: "3.5"
+    - os: linux
+      arch: ppc64le
+      dist: xenial
+      python: "3.6"
+    - os: linux
+      arch: ppc64le
+      dist: xenial
+      python: "3.7"
   allow_failures:
     - python: "3.7"
 
